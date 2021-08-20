@@ -59,7 +59,7 @@ def calcgematria(word,verse):
 
 
 def create_data():
-  path = (r"Docs\Tanach\Torah.csv")
+  path = (r"Docs\Torah.csv")
   df = pd.read_csv(path)
   df2 = pd.DataFrame()
 
